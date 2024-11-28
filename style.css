@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(8, 8, 8);
+}
+
+h1::selection,p::selection{
+    background-color: hsl(120, 89%, 40%);
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: 'Courier New';
+    font-size: 1.2em;
+    margin: 0px;
+    top: 20px;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav{
+    position: relative;
+    top: -15.5px;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    max-width: 85%;
+    min-height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav a:hover{
+    color:  rgb(117, 117, 117);
+    text-shadow: 0px 0 15px rgb(117, 117, 117);
+}
+
+section h1{
+    display: inline;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+section p{
+    color: hsl(0, 1%, 70%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+section{
+    margin: auto;
+    max-width: 40%;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    display: inline-block;
+    /* border: 1px solid white; */
+}
+
+section button{
+    
+    border: none;
+    padding: 20px 40px;
+    font-size:1.1em;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(64, 142, 0);
+    box-shadow: 0px 0px 10px rgb(102, 223, 3);
+    
+}
+
+section button:hover{
+    text-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 10px rgb(102, 223, 3);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+#img{
+    display: inline-block;
+    height: 320px;
+    border-radius: 1000px;
+    position: absolute;
+    top: -230px;
+    left: 150px;
+}
+
+.skillcontainer{
+    color: rgb(194, 191, 191);
+    float: left;
+    min-width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lcontainer{
+    display: flex;
+    justify-content: space-between;    
+
+}
+
+.lcontainer h5{
+    color: rgb(109, 105, 105);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    border: 0.5px solid hsl(0, 0%, 13%);
+    border-radius: 5px;
+    padding: 20px 60px;
+}
+
+.lcontainer h5:hover{
+    box-shadow: 0px 0px 10px hsl(0, 0%, 13%);
+}
