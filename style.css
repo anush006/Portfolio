@@ -140,6 +140,34 @@ nav ul{
     text-align: center;
 }
 
+.about #self{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap: break-word;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.aboutdiv{
+    height: 30%;
+    width: 30%;
+    margin: 100px 150px  80px 100px;
+    display: inline-block;
+}
+
+.aboutdiv h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 20px 10px 20px 10px;
+}
+
+.aboutdiv p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
 .skills{
     padding-bottom: 50px;
 }
@@ -188,6 +216,7 @@ nav ul{
     box-shadow: 5px 5px 5px rgb(83, 83, 83);
     margin-bottom: 100px;
 }
+
 
 
 .project-container h1{
